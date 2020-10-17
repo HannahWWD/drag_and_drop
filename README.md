@@ -7,7 +7,14 @@ This is a small project when I was taking Maximilian Schwarzmüller's *Understan
 ## Getting Start
 Before installing the App, make sure you have installed Typescript globally using `npm install -g typescript`.
 
-To install, run `npm install` to install all necessary node modules.
+Run 
+```
+npm install
+tsc
+```
+
+ to install all necessary node modules and compile TypeScript to browser-readable format.
+
 
 To start the project, run `npm run start` to open the project in your local browser, at **port 3000**.
 
